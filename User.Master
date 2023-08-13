@@ -66,11 +66,11 @@
                 <li><a href="./shop-grid.html">Shop</a></li>
                 <li><a href="#">Pages</a>
                     <ul class="header__menu__dropdown">
-                        <li><a href="./Default.aspx">Default</a></li>
-                        <li><a href="./AddCategory.aspx">Add Category</a></li>
-                        <li><a href="./EditProduct.aspx">Edit Product</a></li>
-                        <li><a href="./DeleteProduct.aspx">Delete Product</a></li>
-                        <li><a href="./ShowProduct.aspx">Show Product</a></li>
+                        <li><a href="Admin/Default.aspx">Default</a></li>
+                        <li><a href="Admin/AddCategory.aspx">Add Category</a></li>
+                        <li><a href="Admin/EditProduct.aspx">Edit Product</a></li>
+                        <li><a href="Admin/DeleteProduct.aspx">Delete Product</a></li>
+                        <li><a href="Admin/ShowProduct.aspx">Show Product</a></li>
                     </ul>
                 </li>
                 <li><a href="./blog.html">Blog</a></li>
@@ -131,17 +131,18 @@
                                 <div>A Pages</div>
                                 <span class="arrow_carrot-down"></span>
                                 <ul>
-                                    <li><a href="./Default.aspx">Default</a></li>
-                                    <li><a href="./AddCategory.aspx">Add Category</a></li>
-                                    <li><a href="./EditProduct.aspx">Edit Product</a></li>
-                                    <li><a href="./DeleteProduct.aspx">Delete Product</a></li>
-                                    <li><a href="./ShowProduct.aspx">Show Product</a></li>
+                                    <%--<li><a href="Admin/Default.aspx">Default</a></li>--%>
+                                    <li><a href="/Admin/AddCategory.aspx">Add Category</a></li>
+                                    <li><a href="/Admin/EditProduct.aspx">Edit Product</a></li>
+                                    <li><a href="/Admin/DeleteProduct.aspx">Delete Product</a></li>
+                                    <li><a href="/Admin/ShowProduct.aspx">Show Product</a></li>
                                 </ul>
                                 </div>
 
 
                             <div class="header__top__right__auth">
                                 <a href="Login.aspx"><i class="fa fa-user"></i> Login</a>
+                                <a href="Register.aspx"><i class="fa fa-user"></i> Register</a>
 
                             </div>
                         </div>
@@ -186,9 +187,9 @@
                     <div class="header__cart">
                         <ul>
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                            <li><a href="Cart.aspx"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
                         </ul>
-                        <div class="header__cart__price">item: <span>$150.00</span></div>
+<%--                        <div class="header__cart__price">item: <span>$150.00</span></div>--%>
                     </div>
                 </div>
             </div>
